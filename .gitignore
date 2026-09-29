@@ -1,0 +1,6 @@
+*.bak
+*.bak.*
+
+# Nothing from the running shell belongs in git: settings are per-machine and
+# the plugin has no build output.
+uptime-counter-settings.json

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "robbie.uptime-counter",
+  "name": "Uptime Counter",
+  "version": "1.0.0",
+  "author": "robbie",
+  "license": "MIT",
+  "description": "A bare bar uptime label. Right-click it for a menu of display formats and suffixes.",
+  "kinds": [
+    "bar-widget"
+  ],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Uptime Counter",
+    "description": "Shows system uptime in one of eight formats. Right-click the label to open a menu and change the format, the suffix or whether the clock icon is shown.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
