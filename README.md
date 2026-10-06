@@ -62,22 +62,14 @@ Beyond that:
 
 ## Install
 
-Copy the directory to `~/.config/omarchy/plugins/robbie.uptime-counter/`, then
-add the widget to your bar:
-
-```json
-"right": [
-  { "id": "robbie.uptime-counter" }
-]
-```
-
-`shell.json` hot-reloads on save. To force a reload of plugin code:
+One command:
 
 ```sh
-omarchy-shell shell rescanPlugins
+omarchy plugin add https://github.com/RobbieUK1/uptime-counter.git --enable
 ```
 
-or restart the shell with `omarchy restart shell`.
+The label appears in the bar's **right** section immediately — nothing to copy
+and no `shell.json` to edit. Add `--yes` to skip the placement question.
 
 ## Relation to `robbie.uptime`
 
